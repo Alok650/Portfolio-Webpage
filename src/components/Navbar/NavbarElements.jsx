@@ -3,16 +3,16 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
-  height: 80px;
-  margin-top: -80px;
+  background: ${({scrollNav}) => (scrollNav ? '#038ea1' : 'transparent')};
+  height: 60px;
+  margin-top: -60px;
   display:flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
   top:0;
-  z-index:10;
+  z-index:5;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -22,7 +22,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;
@@ -38,6 +38,8 @@ export const NavLogo = styled(LinkR) `
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  display: flex;
+  margin-right:20px;
 `
 export const MobileIcon = styled.div`
   display: none;
@@ -65,7 +67,7 @@ export const NavMenu = styled.ul`
   }
 `
 export const NavItem = styled.li`
-  height: 80px;
+  height: 62px;
 `
 export const NavLinks = styled(LinkS)`
   color: #fff;
@@ -77,7 +79,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71
+    border-bottom: 3px solid #01888c
   }
 `
 export const NavBtn = styled.nav`
@@ -89,11 +91,11 @@ export const NavBtn = styled.nav`
   }
 `
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: #01bf71;
+  border-radius: 2px;
+  background: #05050a;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #fff;
   font-size: 16px;
   outline: none;
   border: none;
@@ -106,4 +108,12 @@ export const NavBtnLink = styled(LinkR)`
     background: #fff;
     color: #010606;
   }
+`
+export const Logoborder = styled.div`
+border: 1px solid #fff;
+margin: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 `

@@ -1,18 +1,23 @@
+import profile from "../../images/Alok.png";
+import resume from "../../images/resume.jpg";
+import contact from "../../images/contact.svg"
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
   lightText: true,
   lighttextDesc: true,
-  topLine: 'Premium Bank',
-  headline: 'Unlimited Transactions with zero fees',
-  description: 'Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.',
-  buttonLabel: 'Get started',
+  topLine: 'About Me',
+  headline: "I assume I don't need an introduction, but still...",
+  description: 'My aspiration to live creativity and meet people’s actual needs when it comes to reliance on technology led me to persue Bachelor’s in Compter science and Engineering. My aim is always to combine a pragmatic approach with aesthetics, while improving communication between people. As a Fulbright scholar, I have completed my high school studies from Embassy of India school, Moscow with satisfactory results, which ultimately helped me to get my foot into the world of techology. Currently I am in second year of my BTECH, which I am persuing from the prestigious National Institute of Technology, Surat.',
+  buttonLabel: 'Read more',
   imgStart: false,
-  img: '/images/svg-1.svg',
-  alt: 'car',
+  img: profile,
+  alt: 'Alok Prasad',
   dark: true,
   primary: true,
   darkText: false
+  
 };
 
 export const homeObjTwo = {
@@ -20,13 +25,13 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lighttextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
-  description: 'Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.',
-  buttonLabel: 'Learn More',
+  topLine: 'Resume',
+  headline: 'Download a copy of my resume',
+  description: 'Get access to my latest work in the field of software development and Aerial Robotics.',
+  buttonLabel: 'Download',
   imgStart: true,
-  img: '/images/svg-4.svg',
-  alt: 'Piggybanck',
+  img: resume,
+  alt: 'Resume',
   dark: false,
   primary: false,
   darkText: true
@@ -37,13 +42,14 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lighttextDesc: false,
-  topLine: 'Premium Bank',
-  headline: 'Creating an account is extremely easy',
-  description: 'Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.',
-  buttonLabel: 'Start Now',
+  topLine: 'Connect with me',
+  headline: 'Drop a call and message and receive a reply within 24 hours.',
+  description: 'Personal Email address: alokp650@gmail.com Contact Number : +91-7428640792',
+  buttonLabel: 'Arrange a meeting',
   imgStart: false,
-  img: '/images/svg-3.svg',
-  alt: 'car',
+  img: contact,
+  alt: 'Contact',
   primary: false,
   darkText: true
 };
+

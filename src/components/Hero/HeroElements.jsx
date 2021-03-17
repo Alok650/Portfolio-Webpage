@@ -25,7 +25,7 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
   position: absolute;
   top: 0;
-  right: 0;
+  right: 100;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -50,7 +50,7 @@ export const HeroContent = styled.div`
 `
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
+  font-size: 55px;
   text-align: center;
 
   @media screen and (max-wodth: 768px) {
