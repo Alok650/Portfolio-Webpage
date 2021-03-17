@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb844de5.chunk.css",
+    "main.js": "/static/js/main.eae5f816.chunk.js",
+    "main.js.map": "/static/js/main.eae5f816.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35e65f70.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35e65f70.js.map",
+    "static/js/2.e7422a9e.chunk.js": "/static/js/2.e7422a9e.chunk.js",
+    "static/js/2.e7422a9e.chunk.js.map": "/static/js/2.e7422a9e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.eb844de5.chunk.css.map": "/static/css/main.eb844de5.chunk.css.map",
+    "static/js/2.e7422a9e.chunk.js.LICENSE.txt": "/static/js/2.e7422a9e.chunk.js.LICENSE.txt",
+    "static/media/Alok.5ad2d292.png": "/static/media/Alok.5ad2d292.png",
+    "static/media/contact.17da4eeb.svg": "/static/media/contact.17da4eeb.svg",
+    "static/media/resume.d491abfb.jpg": "/static/media/resume.d491abfb.jpg",
+    "static/media/svg-10.8234d160.svg": "/static/media/svg-10.8234d160.svg",
+    "static/media/svg-11.8fb8a335.svg": "/static/media/svg-11.8fb8a335.svg",
+    "static/media/svg-9.fae1804a.svg": "/static/media/svg-9.fae1804a.svg",
+    "static/media/video.c3147db9.mov": "/static/media/video.c3147db9.mov"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35e65f70.js",
+    "static/js/2.e7422a9e.chunk.js",
+    "static/css/main.eb844de5.chunk.css",
+    "static/js/main.eae5f816.chunk.js"
+  ]
+}
