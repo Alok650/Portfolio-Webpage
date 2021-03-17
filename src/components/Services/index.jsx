@@ -9,17 +9,26 @@ const Services = () => {
     <ServicesContainer id='projects'>
       <ServicesH1>Projects</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://github.com/Alok650/Covid-19-database-using-file-handling';
+                    }}>
           <ServicesIcon src={Icon1}/>
           <ServicesH2>Shramik Seva NGO</ServicesH2>
           <ServicesP>Webpage designed using HTML,CSS,JS.</ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://github.com/Alok650/Dating-app';
+                    }}>
         <ServicesIcon src={Icon2}/>
           <ServicesH2>Dating Site</ServicesH2>
           <ServicesP>Designed using MERN stack.</ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://github.com/Alok650/CNN--Model-for-Image-classification';
+                    }}>
           <ServicesIcon src={Icon3}/>
           <ServicesH2>Data Science Project</ServicesH2>
           <ServicesP>Using Google collab, tensorflow.</ServicesP>

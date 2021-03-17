@@ -23,7 +23,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                   type="button"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.location.href='https://drive.google.com/file/d/1mMYY2fSYVwAPT1DbXYogQLsUujuOMhwB/view?usp=sharing';
+                    window.location.href='https://resumealokp.blogspot.com/2021/03/portfolio.html';
                     }}
                   primary={primary ? 1 : 0}
                   dark={dark ? 1 : 0}
