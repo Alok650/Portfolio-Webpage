@@ -19,7 +19,7 @@ const Hero = () => {
         <HeroH1> Hey!</HeroH1>
         <HeroP>I am Alok. Computer science & Engg. undergraduate, Web Designer, Aerial robotics enthusiat, Data Science Learner.</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          <Button to='projects' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Explore my work {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>

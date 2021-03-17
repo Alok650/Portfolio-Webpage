@@ -14,12 +14,17 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button to='home'
+                  <Button
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://drive.google.com/file/d/1mMYY2fSYVwAPT1DbXYogQLsUujuOMhwB/view?usp=sharing';
+                    }}
                   primary={primary ? 1 : 0}
                   dark={dark ? 1 : 0}
                   dark2={dark2 ? 1 : 0}
