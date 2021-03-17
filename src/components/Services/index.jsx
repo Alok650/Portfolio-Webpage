@@ -6,7 +6,7 @@ import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIc
 
 const Services = () => {
   return (
-    <ServicesContainer id='services'>
+    <ServicesContainer id='projects'>
       <ServicesH1>Projects</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
