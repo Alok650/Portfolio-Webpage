@@ -11,7 +11,7 @@ Latest video Demo : View Demo.mp4
 ![image](https://user-images.githubusercontent.com/58817460/111473911-83e73300-8751-11eb-8ebf-2175703a73c6.png)
 
 #### Portfolio Tab
-![image]((https://user-images.githubusercontent.com/58817460/111474106-b42ed180-8751-11eb-936f-0b6198ea96c9.png)
+![image](https://user-images.githubusercontent.com/58817460/111474106-b42ed180-8751-11eb-936f-0b6198ea96c9.png)
 
 
 
