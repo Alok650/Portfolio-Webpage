@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ServicesContainer = styled.div`
+export const ProjContainer = styled.div`
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ export const ServicesContainer = styled.div`
     height: 1300px;
   }
  `
-export const ServicesWrapper = styled.div`
+export const ProjWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
@@ -34,7 +34,7 @@ export const ServicesWrapper = styled.div`
       padding: 0 20px;
   }
 `
-export const ServicesCard = styled.div`
+export const ProjCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -52,13 +52,13 @@ export const ServicesCard = styled.div`
     cursor:pointer;
   }
 `
-export const ServicesIcon = styled.img`
+export const ProjIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
 
 `
-export const ServicesH1 = styled.h1`
+export const ProjH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -67,12 +67,12 @@ export const ServicesH1 = styled.h1`
     font-size: 2rem;
   }  
 `
-export const ServicesH2 = styled.h2`
+export const ProjH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
 `
 
-export const ServicesP = styled.p`
+export const ProjP = styled.p`
   font-size: 1rem;
   text-align: center;
 `

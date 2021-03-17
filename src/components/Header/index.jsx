@@ -1,9 +1,8 @@
-import React, {useState} from 'react'
+import React, {useState, Suspense} from 'react'
 import Video from '../../videos/video.mov'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeaderElements'
+import { HeadContainer, HeadBg, VideoBg, HeadContent, HeadH1, HeadP, HeadBtnWrapper, ArrowForward, ArrowRight } from './HeadElements'
 import { Button } from '../ButtonElements'
-
-const Hero = () => {
+const Header = () => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -11,21 +10,23 @@ const Hero = () => {
   }
 
   return (
-    <HeroContainer id='home'>
-      <HeroBg>
+    <HeadContainer id='home'>
+      <HeadBg>
+        <Suspense fallback ={<h1>Loading...</h1>}>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
-      </HeroBg>
-      <HeroContent>
-        <HeroH1> Hey!</HeroH1>
-        <HeroP>I am Alok. Computer science & Engg. undergraduate, Web Designer, Aerial robotics enthusiat, Data Science Learner.</HeroP>
-        <HeroBtnWrapper>
+        </Suspense>
+      </HeadBg>
+      <HeadContent>
+        <HeadH1> Hey {prompt("Enter your name : ")}!</HeadH1>
+        <HeadP>I am Alok. Computer science & Engg. undergraduate, Web Designer, Aerial robotics enthusiat, Data Science Learner.</HeadP>
+        <HeadBtnWrapper>
           <Button to='projects' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Explore my work {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
-        </HeroBtnWrapper>
-      </HeroContent>
-    </HeroContainer>
+        </HeadBtnWrapper>
+      </HeadContent>
+    </HeadContainer>
   )
 }
 
-export default Hero
+export default Header;
