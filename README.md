@@ -28,7 +28,7 @@ Latest video Demo : View Demo.mp4
 
 
 ### To run offline
-Click npm install && npm run command
+Click npm install && npm start command
 
 ### To run online
 Use firebase deployment link : https://portfolio-alok.web.app/
